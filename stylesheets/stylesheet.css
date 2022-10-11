@@ -10,3 +10,24 @@ h2 + p {
     border-bottom: 1px gray solid;
     list-style-type: none;
 }
+
+li > a{
+    color: green;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color:pink;
+}
+
+li ::first-letter{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+body > a{
+    background-color: yellow;
+}
